@@ -1,0 +1,61 @@
+/* Header */
+
+header {
+  height: 70px;
+  border-bottom: 1px solid black;
+}
+
+header h1 {
+  padding-top: 1%;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+header img {
+  height: 65px;
+  width: auto;
+  float: left;
+  margin-left: 30px;
+}
+
+/* Main content */
+
+main > section {
+  float: left; 
+  min-height: 1px;
+  padding: 0px 2%;
+  padding-top: 10px;
+}
+
+main > .search {
+  width: 15%;
+}
+
+main > .main-content {
+  width: 70%;
+}
+
+/* Form search */
+
+.form-search > input, .form-search > select, .form-search > button {
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+  height: 25px;
+  padding-left: 3%;
+  border-radius: 2px;
+  border: 1px solid #9a8a8a;
+}
+
+.form-search > input {
+    width: 96%;
+}
+
+
+/* Text content */
+
+#content {
+  text-align: justify;
+  line-height: 1.5em;
+}

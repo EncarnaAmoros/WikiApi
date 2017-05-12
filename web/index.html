@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+ 		<title>My Wikipedia</title>
+		<meta name="author" content="Encarna Amorós">
+		<meta name="description" content="Task for Wikipedia using his API...">
+		<link rel="shortcut icon" href="fa.ico" type="image/x-icon">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="./css/index.css" media="screen and (min-device-width: 801px)" type="text/css" />
+    <link rel="stylesheet" href="./css/indexmobile.css" media="handheld, only screen and (max-device-width: 800px)" />
+  </head>
+
+  <body>
+  
+    <header>
+      <nav class="navbar">
+        <div><img id="imglogo" src=""></div>
+        <div><h1 id="title">Title</h1></div>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- Search form -->      
+      <section id="search" class="search invisible">
+        <div class="form-search">
+          <input type="text" id="titlesearch" value="Albert_Einstein" class="form-control" placeholder="Tittle"/>
+          <select id="language">
+            
+          </select>
+          <button type="button" id="btnsearch">Fetch</button>
+        </div>  
+      </section>
+
+      <!-- Results -->
+      <section class="main-content">
+
+        <div id="content">
+        </div>
+
+      </section>  
+    
+    </main>
+    
+    <footer class="container-fluid">
+    </footer>
+    
+    <!--Get API Wiki info -->
+    <script src="js/configurationpage.js"></script>
+    <script src="js/getInfo.js"></script>
+
+  </body>
+  
+</html>
